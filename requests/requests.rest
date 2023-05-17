@@ -1,0 +1,10 @@
+### Local
+
+### Health
+GET http://localhost:3002/health
+
+### Home
+GET http://localhost:3002/
+
+### Example
+GET http://localhost:3002/example
