@@ -1,7 +1,7 @@
 {
-  "name": "rri-heroku-audit",
+  "name": "express-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express NodeJS Template for quick creation of simple UI.",
   "main": "index.js",
   "scripts": {
     "build": " tsc -p . && node ./src/copyTemplates.mjs",
