@@ -10,6 +10,7 @@ let bodyParser = require("body-parser");
 app.use(bodyParser.json({ limit: "2mb" }));
 app.use(bodyParser.text());
 app.use(bodyParser.urlencoded({ limit: "2mb", extended: true }));
+app.use(express.static(__dirname + '/css'));
 
 app.use(helmet())
 app.use('/', home);
